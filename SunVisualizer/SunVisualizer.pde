@@ -25,34 +25,40 @@ float Mercury = 0.0034 * SunRadius;
 float MercuryOrbit = AU * 0.4;
 float MercurySpeed = 1.607;
 
+//Venus Base Stats
 float Venus = 0.0087 * SunRadius;
 float VenusOrbit = AU * 0.7;
 float VenusSpeed = 1.174;
 
+//Earth Base Stats
 float Earth = 0.0091 * SunRadius;
 float EarthOrbit = AU;
 float EarthSpeed = 1;
 
+//Mars Base Stats
 float Mars = 0.0048 * SunRadius;
 float MarsOrbit = AU * 1.5;
 float MarsSpeed = 0.802;
 
+//Jupiter Base Stats
 float Jupiter = 0.1026 * SunRadius;
 float JupiterOrbit = AU * 5.2;
 float JupiterSpeed = 0.434;
 
+//Saturn Base Stats
 float Saturn = 0.0862 * SunRadius;
 float SaturnOrbit = AU * 9.5;
 float SaturnSpeed = 0.323;
 
+//Uranus Base Stats
 float Uranus = 0.055 * SunRadius;
 float UranusOrbit = AU * 19.2;
 float UranusSpeed = 0.228;
 
+//Neptune Base Stats
 float Neptune = 0.037 * SunRadius;
 float NeptuneOrbit = AU * 30.1;
 float NeptuneSpeed = 0.182;
-
 
 Camera cam = new Camera();
 
